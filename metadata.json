@@ -1,0 +1,5 @@
+{
+  "name": "Smart EMI Planner",
+  "description": "A comprehensive personal finance assistant for planning loans, tracking EMIs, managing notes, and setting payment reminders.",
+  "requestFramePermissions": []
+}

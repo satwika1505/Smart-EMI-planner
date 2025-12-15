@@ -1,18 +1,15 @@
-
 export enum LoanType {
   PERSONAL = 'Personal',
   HOME = 'Home',
   VEHICLE = 'Vehicle',
   EDUCATION = 'Education'
 }
-
 export interface User {
   id: string;
   name: string;
   email: string;
   password?: string; // Stored for mock auth only
 }
-
 export interface Loan {
   id: string;
   name: string; // e.g., "HDFC Home Loan"
@@ -34,7 +31,6 @@ export interface Note {
   tags: string[];
   createdAt: string;
 }
-
 export interface Reminder {
   id: string;
   loanId: string;
@@ -44,7 +40,6 @@ export interface Reminder {
   paidAt?: string; // Timestamp of when the payment was marked as done
   type: 'payment' | 'task'; // 'payment' for EMI, 'task' for generic to-dos
 }
-
 export interface EMIBreakdown {
   month: number;
   principalPaid: number;

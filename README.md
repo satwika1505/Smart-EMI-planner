@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1lNyqp7ttwmwRkXKVchGI1s52QYX1xNKo
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+Live Demo:
+ https://smart-emi-planner.vercel.app/
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+About the Project:
+
+Smart EMI Planner is a TypeScript-based interactive financial simulation tool that helps users calculate Equated Monthly Installments (EMIs) and explore repayment scenarios. 
+While it does not connect to real-time banking data, it gives users a real-time simulation experience, allowing them to experiment with different loan parameters and instantly see the impact on their finances.
+This tool empowers users to plan loans efficiently, understand repayment implications, and make informed financial decisions—without needing complex banking tools.
+It’s a practical demonstration of interactive financial modeling using modern TypeScript workflows.
+
+
+Features:
+--> EMI Calculation: Quickly computes monthly payments based on principal, interest rate, and tenure.
+--> Detailed Repayment Breakdown: Shows total interest and overall repayment amount for better financial understanding.
+--> Real-Time Simulation: Users can adjust loan parameters and instantly visualize the effects on their EMIs.
+--> Lightweight & Interactive: Runs entirely on the client-side with a smooth, responsive interface.
+
+Tech Stack:
+--> Frontend & Logic: TypeScript, HTML, CSS
+--> Build Tool: Vite for project setup and bundling
+--> Deployment: Vercel for live hosting
